@@ -4,7 +4,7 @@ Donate link: https://sites.google.com/site/manfredfettinger/divers/wordpress
 Tags: WP-PostRatings, Ratings Cheat, Cheating, Post Ratings Cheating
 Requires at least: 2.8
 Tested up to: 3.4.1
-Stable tag: trunk
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ Set rating values as you like!
 
 If you are tired to endure the bad reviews of your articles or nobody wants to review them, then do it yourself! 
 You can choose the values of ratings, users and average ratings of your own easily with this plugin
-It only works with the plugin "WP-PostRatings" (checked with Version 1.63 of it)
+It only works with the plugin "WP-PostRatings" (checked with Version 1.64 of it)
 
 
 == Installation ==
@@ -33,7 +33,7 @@ Please ensure that you have the WP-PostRatins Plugin installed and activated! Th
 
 = What about the version of the WP-PostRatings Plugn =
 
-This plugin was developed and testet with version 1.63 of WP-PostRatings. If you have troubles with a lower version, please update to the newest.
+This plugin was developed and testet with version 1.64 of WP-PostRatings. If you have troubles with a lower version, please update to the newest.
 If you have troubles with a higher version of WP-PostRatings, please contact me.
 
 
@@ -49,8 +49,8 @@ Before upgrading deinstall and install afterwards new!
 
 == Changelog ==
 
-= Version 1.00 (20-11-2012) =
-* NEW: Initial Release
+= Version 1.20 (03-01-2013) =
+* NEW: Fixed bug - before only rating of latest article could be changed
 
 
 
