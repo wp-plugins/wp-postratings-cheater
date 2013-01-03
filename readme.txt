@@ -4,7 +4,7 @@ Donate link: https://sites.google.com/site/manfredfettinger/divers/wordpress
 Tags: WP-PostRatings, Ratings Cheat, Cheating, Post Ratings Cheating
 Requires at least: 2.8
 Tested up to: 3.4.1
-Stable tag: trunk
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
