@@ -48,9 +48,13 @@ Before upgrading deinstall and install afterwards new!
 1. Admin - Settings Menu
 
 == Changelog ==
+= Version 1.2 (03-01-2013) =
+* FIXED: Fixed bug - before only rating of latest article could be changed
 
-= Version 1.20 (03-01-2013) =
-* NEW: Fixed bug - before only rating of latest article could be changed
+= Version 1.0 (11-11-2012) =
+* Initial Release
+
+
 
 
 
