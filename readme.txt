@@ -4,7 +4,7 @@ Donate link: https://sites.google.com/site/manfredfettinger/divers/wordpress
 Tags: WP-PostRatings, Ratings Cheat, Cheating, Post Ratings Cheating
 Requires at least: 2.8
 Tested up to: 3.4.1
-Stable tag: 1.2
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,9 +48,13 @@ Before upgrading deinstall and install afterwards new!
 1. Admin - Settings Menu
 
 == Changelog ==
+= Version 1.2 (03-01-2013) =
+* FIXED: Fixed bug - before only rating of latest article could be changed
 
-= Version 1.20 (03-01-2013) =
-* NEW: Fixed bug - before only rating of latest article could be changed
+= Version 1.0 =
+* Initial Release
+
+
 
 
 
