@@ -87,7 +87,7 @@ $result = $wpdb->get_results($sql);
 	<h2><?php echo $title; ?></h2>
 
 
-<form method="post" action="<?php echo admin_url('admin.php?page='.plugin_basename(__FILE__)); ?>"> 
+
 	<?php wp_nonce_field('wp-postratings-cheater-settings'); ?>
 		
 	<table class="widefat">
@@ -107,6 +107,7 @@ $result = $wpdb->get_results($sql);
 		$pc_post_ratings_average 	= get_post_meta($line->post_id, 'ratings_average', true);
 		$pc_post_ratings_users 		= get_post_meta($line->post_id, 'ratings_users', true); ?>
 		
+		<form method="post" action="<?php echo admin_url('admin.php?page='.plugin_basename(__FILE__)); ?>"> 
 		<tr>
 			<td>
 				<input type="hidden" name="post_id" value="<?php echo $line->post_id; ?>">
@@ -153,12 +154,13 @@ $result = $wpdb->get_results($sql);
 				<input type="submit" name="Submit" value="Update this Rating" class="button-secondary" />
 			</td>
 		</tr>
+		</form>
 		
 		<? } //foreach end?>
 	</table>		
 	
 	<br>
-</form>
+
 
 
 
