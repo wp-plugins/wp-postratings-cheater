@@ -33,7 +33,7 @@ Please ensure that you have the WP-PostRatins Plugin installed and activated! Th
 
 = What about the version of the WP-PostRatings Plugn =
 
-This plugin was developed and testet with version 1.64 of WP-PostRatings. If you have troubles with a lower version, please update to the newest.
+This plugin was developed and testet with version 1.65 of WP-PostRatings. If you have troubles with a lower version, please update to the newest.
 If you have troubles with a higher version of WP-PostRatings, please contact me.
 
 
