@@ -15,7 +15,7 @@ Set rating values as you like!
 
 If you are tired to endure the bad reviews of your articles or nobody wants to review them, then do it yourself! 
 You can choose the values of ratings, users and average ratings of your own easily with this plugin
-It only works with the plugin "WP-PostRatings" (checked with Version 1.64 of it)
+It only works with the plugin "WP-PostRatings" (checked with Version 1.65 of it)
 
 
 == Installation ==
