@@ -39,13 +39,16 @@ if($_POST['Submit']) {
 
 	global $wpdb;
 	
-	$pc_score 		  = intval($_POST['pc_score']);
+	### $pc_score 		  = intval($_POST['pc_score']);
 	$pc_average       = floatval($_POST['pc_average']);
 	$pc_users 		  = intval($_POST['pc_users']);
+	$pc_score		  = $pc_average * $pc_users;
 	$pc_post_id       = intval($_POST['post_id']);
 
 	if($pc_average > $pc_ratings_max){
 		$txt = '<font color="red">Average value can not be greater than the max value of '.$pc_ratings_max.' </font>';
+	}else if($pc_users == 0){
+		$txt = '<font color="red">Please enter a value for number of users!</font>';
 	}
 
 	if(!empty($txt)){
@@ -117,7 +120,7 @@ $result = $wpdb->get_results($sql);
 				<?php echo $line->post_title;?>
 			</td>
 			<td>
-				<input type="text" id="pc_score" name="pc_score" value="<?php echo $pc_post_ratings_score; ?>" size="3"/>
+				<?php echo $pc_post_ratings_score; ?>
 			</td>
 			<td>
 				<input type="text" id="pc_average" name="pc_average" value="<?php echo $pc_post_ratings_average; ?>" size="3"/>
@@ -156,11 +159,7 @@ $result = $wpdb->get_results($sql);
 		</tr>
 		</form>
 		
-		<? } //foreach end?>
+		<?php } //foreach end?>
 	</table>		
 	
 	<br>
-
-
-
-

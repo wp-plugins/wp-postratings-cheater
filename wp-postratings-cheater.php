@@ -3,7 +3,7 @@
 Plugin Name: WP-PostRatings-Cheater
 Plugin URI: http://sites.google.com/site/manfred.fettinger/
 Description: If you use the famous wp-postratings plugin, you can now rate your articles like you want
-Version: 1.3
+Version: 1.4
 Author: Manfred Fettinger
 Author URI: http://sites.google.com/site/manfred.fettinger/
 */
